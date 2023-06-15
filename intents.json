@@ -13,23 +13,30 @@
     },
     {"tag": "about",
      "patterns": ["Who are you?", "What are you?", "Who you are?" ],
-     "responses": ["I'm Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+     "responses": ["I'm Anshul, your bot assistant", "I'm Anshul, an Artificial Intelligent bot"]
     },
     {"tag": "name",
     "patterns": ["what is your name", "what should I call you", "whats your name?"],
-    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    "responses": ["You can call me Anshul.", "I'm Anshul!", "Just call me as Anshul"]
     },
     {"tag": "help",
     "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
     "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
     },
-    {"tag": "createaccount",
-    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
-    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    {"tag": "question1",
+    "patterns": ["who was swami vivekananda","search Swami Vivekananda","who was vivekananda", "what swami vivekananda known for", "who was Narendranath Datta"],
+    "responses": ["Swami Vivekananda was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna. He was a key figure in the introduction of Vedanta and Yoga to the Western world and is credited with raising interfaith awareness, and bringing Hinduism to the status of a major world religion.",
+        "Swami Vivekananda was one of the most popular Hindu monks and spiritual leaders of India.His name was Narendranath Datta. He was born on 12 January 1863 into a Bengali Kayastha family of Calcutta.",
+        "He was a great philosopher, Hindu monk, and spiritual leader who believed in the mantra of simple living and high thinking",
+        "Swami Vivekananda was a Hindu monk and one of the most celebrated spiritual leaders of India. He was more than just a spiritual mind; he was a prolific thinker, great orator and passionate patriot. He carried on the free-thinking philosophy of his guru, Ramakrishna Paramhansa forward into a new paradigm. He worked tirelessly towards betterment of the society, in servitude of the poor and needy, dedicating his all for his country. He was responsible for the revival of Hindu spiritualism and established Hinduism as a revered religion on world stage. His message of universal brotherhood and self-awakening remains relevant especially in the current backdrop of widespread political turmoil around the world"]
     },
-    {"tag": "complaint",
-    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
-    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    {"tag":  "question2",
+    "patterns": ["when was swami vivekananda born","when he was born", "swami vivekananda date of birth","Narendranath Datta was born on"],
+    "responses": ["Swami Vivekananda was born on January 12, 1863.", "He was born on January 12, 1863."]
+    },
+    {"tag": "question3",
+    "patterns":  ["where was swami vivekanada born","where was he born", "Narendranath Datta birth place","His birth place"],
+    "responses":  ["Swami Vivekananda was born in Calcutta, which is now known as Kolkata, in the state of West Bengal, India","He was born in Kolkata, in the state of West Bengal, India"]
     }
 ]
 }
