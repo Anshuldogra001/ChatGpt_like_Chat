@@ -6,8 +6,7 @@ from keras.layers import Dense, Embedding, GlobalAveragePooling1D
 from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
-
-
+from keras.optimizers import Adam
 
 
 with open('intents.json') as file:
@@ -56,17 +55,18 @@ padded_sequences = pad_sequences(sequences, truncating='post', maxlen=max_len)
 
 
 
-
+new_learning_rate = 1e-4
 
 model = Sequential()
 model.add(Embedding(vocab_size, embedding_dim, input_length=max_len))
 model.add(GlobalAveragePooling1D())
 model.add(Dense(16, activation='relu'))
+model.add(Dense(32, activation='relu'))
 model.add(Dense(16, activation='relu'))
 model.add(Dense(num_classes, activation='softmax'))
 
 model.compile(loss='sparse_categorical_crossentropy',
-              optimizer='adam', metrics=['accuracy'])
+              optimizer=Adam(learning_rate=new_learning_rate), metrics=['accuracy'])
 
 model.summary()
 epochs = 500
