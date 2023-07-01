@@ -69,7 +69,7 @@ model.compile(loss='sparse_categorical_crossentropy',
               optimizer=Adam(learning_rate=new_learning_rate), metrics=['accuracy'])
 
 model.summary()
-epochs = 500
+epochs = 400
 history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 
 # to save the trained model
