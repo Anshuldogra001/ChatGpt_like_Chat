@@ -7,4 +7,4 @@
 
 
 ### Example
-![Screenshot (107)](https://github.com/Anshuldogra001/ChatGpt_like_Chat/assets/96309140/b74eafb5-e5dc-4c1b-b36c-765048b605be)
+![Screenshot (40)](https://github.com/Anshuldogra001/static_nn_chatbot/assets/96309140/e7d80c48-b1e6-400a-b47d-e834490faa2a)
