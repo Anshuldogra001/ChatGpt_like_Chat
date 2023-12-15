@@ -1,4 +1,4 @@
-# ChatGpt_like_Chat
+# Static Neural Network Chatbot
 
  In this project I made a chatgpt model with understanding of how humman end and start coversation and make it learn it using tokkenizer and embedding class of keras.
  I said it static because I have given the model both input and outut on which it trainn itself.
